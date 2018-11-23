@@ -8,4 +8,3 @@ services:
                 - UBUNTU_VERSION=18.04
                 - CURRENT_TZ=US/Eastern
         image: ubuntu/1804tz
-        container_name: ubuntu-1804tz
