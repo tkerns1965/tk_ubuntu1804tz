@@ -9,5 +9,3 @@ services:
                 - CURRENT_TZ=US/Eastern
         image: ubuntu/1804tz
         container_name: ubuntu-1804tz
-        # environment:
-        #     - CURRENT_TZ=US/Eastern
