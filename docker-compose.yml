@@ -6,7 +6,7 @@ services:
             context: ubuntu
             args:
                 - UBUNTU_VERSION=18.04
-                - TZ_DATA=US/Eastern
+                - CURRENT_TZ=US/Eastern
         image: ubuntu/1804tz
         container_name: ubuntu-1804tz
         environment:
